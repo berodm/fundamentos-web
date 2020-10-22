@@ -1,0 +1,86 @@
+/* Estilos da pagina index.html */
+.center {
+    text-align: center;
+
+}
+.justify {
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow:row ;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.centralizar {
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-flow:row ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.bg-color {
+    background-color: cornflowerblue;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.border {
+    border:10px solid black;
+    border-radius: 50%;
+    
+}
+.wh {
+    width: 300px;
+    height: 300px;
+}
+
+.video {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu li{
+    display: inline;
+    padding: 30px;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.menu li a:hover {
+    color: grey;
+}
+
+/* Estilos da pagina contato.html*/
+
+.tam-pq {
+    width: 50px;
+    height: 50px;
+}
+
+.div2 {
+    width: 300px;
+    height: 370px;
+    border: 5px solid black;
+  }
+
+ 
