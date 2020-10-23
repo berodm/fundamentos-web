@@ -38,10 +38,10 @@
                 <br> 
                 <br>
                 <label for="assunto">Assunto:</label><br>
-                <textarea name="assunto" id="assunto" cols="20" rows="5"></textarea>
+                <textarea name="assunto" id="assunto" cols="20" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id='txtAssunto'></div>
                 <br>
-                <br>
-                <button class="centralizar">Enviar</button>
+                <button onclick="enviar()">Enviar</button>
             </form>
         </div>
     </div>
@@ -52,8 +52,8 @@
         <p>Rua João Brícola, 24 - Centro, São Paulo - SP</p>
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.633952135636!2d-46.63626268620704!3d-23.54566456689524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce585506c110c9%3A0x462a3bfa92909aee!2sEdif%C3%ADcio%20Altino%20Arantes!5e0!3m2!1spt-BR!2sbr!4v1603299389411!5m2!1spt-BR!2sbr" 
-        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-        aria-hidden="false" tabindex="0"></iframe>
+        width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""
+        aria-hidden="false" tabindex="0" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapa'></iframe>
 
     </div>
     
