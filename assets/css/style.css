@@ -24,15 +24,18 @@
     flex-flow:row ;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 20px;
 }
 
 .bg-color {
     background-color: cornflowerblue;
+
 }
 
 .p-10 {
     padding: 10px;
+    padding-top: 50px;
 }
 
 .p-40 {
@@ -78,9 +81,13 @@
 }
 
 .div2 {
-    width: 300px;
+    width: 450px;
     height: 370px;
     border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding: 20px;
   }
 
  
